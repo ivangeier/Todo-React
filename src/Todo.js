@@ -11,7 +11,11 @@ function Todo() {
     function onAddItem(text) {
         let item = new Item(text);
         setItems([...items, item]);
-        console.log(items);
+    }
+
+    function onItemDelete(item) {
+        let filteredItems = items.filter(it => it.id !== item.id);
+        setItems(filteredItems);
     }
 
     return (
@@ -19,7 +23,7 @@ function Todo() {
             <h1>Todo</h1>
 
             <TodoForm onAddItem={onAddItem}></TodoForm>
-            <List items={items}></List>
+            <List onItemDelete={onItemDelete} items={items}></List>
         </div>
     )
 }
