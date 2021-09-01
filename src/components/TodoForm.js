@@ -18,8 +18,8 @@ function TodoForm(props) {
 
     return (
         <form>
-            <input onChange={handleChange} type="text" value={text} />
-            <button onClick={addItem}>Add</button>
+            <input className="todo" placeholder="Add item here...[ENTER]" onChange={handleChange} type="text" value={text} />
+            <button className="btn add" hidden onClick={addItem}>Add</button>
         </form>
     )
 }

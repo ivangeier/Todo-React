@@ -1,8 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*:focus {
+    outline: none;
+}
+
 .container {
-    margin: auto;
-    max-width: 900px;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #D4C7B0;
+}
+
+h1 {
+    margin: 0;
+    padding: 2rem;
+    text-align: center;
+    font-size: 4rem;
+    color: #F2E9E4;
+}
+
+.main {
+    margin: 0 auto;
+    padding: 1rem 0;
+    width: 500px;
+    min-height: 500px;
+    background-color: #3F4238;
+    border-radius: 20px;
+}
+
+form {
+    width: 100%;
+    display: flex;
+}
+
+input.todo{
+    border: none;
+    border-bottom: 1px solid #D4C7B0;
+
+    width: 80%;
+    height: 3rem;
+    margin: 3rem auto;
+    background-color: transparent;
+
+    text-align: center;
+    color: #F2E9E4;
+    font-size:1.6rem;
+}
+
+ul {
+    list-style: none;
+}
+
+ul button {
+    border: none;
+    background-color: transparent;
+    opacity: .2;
+}
+
+ul button:hover {
+    opacity: 1;
+}
+
+ul img {
+    width: 30px;
+    margin-right: .5rem;
 }
 
 .done {
     text-decoration: line-through;
+}
+
+.card {
+    background-color: #FFE8D6;
+    border-radius: 1.5rem;
+    margin: 1rem auto;
+}
+
+.card.done {
+    background-color: #B7B7A4;
+}
+
+.item {
+    width: 90%;
+    padding: 1rem;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #3F4238;
+
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center
+}
+
+p, a {
+  text-align: center;  
+  margin: 1rem;
+  font-size: 1.4rem;
+  text-decoration: none;
+  color: #3F4238;
+}
+
+a {
+    color: #F2E9E4;
+    font-weight: bold;
 }

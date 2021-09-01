@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import List from './List';
-import TodoForm from './TodoForm';
-import Item from './Item';
+import List from './components/List';
+import TodoForm from './components/TodoForm';
+import Item from './components/Item';
 import './Todo.css';
 
 function Todo() {
@@ -31,9 +31,11 @@ function Todo() {
     return (
         <div className="container">
             <h1>Todo</h1>
-
-            <TodoForm onAddItem={onAddItem}></TodoForm>
-            <List onDone={onDone} onItemDelete={onItemDelete} items={items}></List>
+            <div className="main">
+                <TodoForm onAddItem={onAddItem}></TodoForm>
+                <List onDone={onDone} onItemDelete={onItemDelete} items={items}></List>
+            </div>
+            <p>Code by <a href="https://github.com/ivangeier" target="_blank">Ivan Geier</a> </p>
         </div>
     )
 }
