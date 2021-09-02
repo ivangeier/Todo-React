@@ -8,7 +8,8 @@ This is my first application with React. Use this project to understand the basi
 - Go to the project folder and run the application with the command line
 
 ```
-yarn start
+npm instal // to instal all dependecies
+npm start // to run the application
 ```
 
 ## Technologies
