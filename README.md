@@ -5,7 +5,7 @@ This is my first application with React. Use this project to understand the basi
 ## How to Run
 
 - Clone the project to your computer
-- Go to the file and run the application with the command line
+- Go to the project folder and run the application with the command line
 
 ```
 yarn start
