@@ -17,3 +17,7 @@ yarn start
 - CSS
 - HTML
 - NodeJS
+
+## Screenshot
+
+![](./public/assets/screenshot.png)
