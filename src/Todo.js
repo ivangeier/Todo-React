@@ -35,7 +35,7 @@ function Todo() {
                 <TodoForm onAddItem={onAddItem}></TodoForm>
                 <List onDone={onDone} onItemDelete={onItemDelete} items={items}></List>
             </div>
-            <p>Code by <a href="https://github.com/ivangeier" target="_blank">Ivan Geier</a> </p>
+            <p>Code by <a href="https://github.com/ivangeier" target="_blank" rel="noreferrer">Ivan Geier</a> </p>
         </div>
     )
 }
