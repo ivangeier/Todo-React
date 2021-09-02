@@ -16,7 +16,6 @@ yarn start
 - React
 - CSS
 - HTML
-- NodeJS
 
 ## Screenshot
 
