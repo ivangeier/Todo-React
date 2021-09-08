@@ -14,7 +14,7 @@ This is my first application with React. Use this project to understand the basi
 
 ## Technologies
 
-- React
+- React (Redux)
 - CSS
 - HTML
 
